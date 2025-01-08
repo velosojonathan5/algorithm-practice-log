@@ -9,7 +9,7 @@ I create this repository to track my review and practice of algorithms and data 
 - [x] Arrays
 - [ ] Matrices
 - [ ] Linked lists
-- [ ] Dtacks
+- [ ] Stacks
 - [ ] Queues
 - [ ] Trees (BSTs, AVL, etc.)
 - [ ] Heaps
