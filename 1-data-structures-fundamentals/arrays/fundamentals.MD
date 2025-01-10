@@ -78,20 +78,13 @@ arr[2] = 10  # Updates the third element to 10
 ---
 
 ## Practice Problems
-1. **Basic Traversal**:
-   Write a program to find the sum of all elements in an array.
 
-2. **Insertion**:
-   Insert an element into a sorted array and maintain the order.
-
-3. **Deletion**:
-   Remove duplicates from an unsorted array.
-
-4. **Searching**:
-   Implement binary search for a given sorted array.
-
-4. **Two Pointers Problem**:
-   
+- [x] Basic Traversal
+- [x] Insertion
+- [x] Deletion
+- [x] Remove element (Two Pointers Problem)
+- [ ] Searching
+- [ ] ...
 
 ---
 
