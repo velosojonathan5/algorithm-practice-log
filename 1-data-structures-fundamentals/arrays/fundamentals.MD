@@ -83,9 +83,14 @@ arr[2] = 10  # Updates the third element to 10
 - [x] Insertion
 - [x] Deletion
 - [x] Remove element (Two Pointers Problem)
-- [ ] Searching
-- [ ] ...
-
----
-
-Mastering arrays is an essential step toward understanding more complex data structures and algorithms!
+- [x] Binary Search
+- [ ] First Bad Version
+- [ ] Guess Number Higher or Lower
+- [ ] Find First and Last Position of Element in Sorted Array
+- [ ] Search in Rotated Sorted Array
+- [ ] Find Peak Element
+- [ ] Find Minimum in Rotated Sorted Array
+- [ ] Median of Two Sorted Arrays
+- [ ] Find Minimum in Rotated Sorted Array II
+- [ ] Search in Rotated Sorted Array II
+- [ ] Find K-th Smallest Pair Distance
