@@ -84,8 +84,8 @@ arr[2] = 10  # Updates the third element to 10
 - [x] Deletion
 - [x] Remove element (Two Pointers Problem)
 - [x] Binary Search
-- [ ] First Bad Version
-- [ ] Guess Number Higher or Lower
+- [x] First Bad Version
+- [x] Guess Number Higher or Lower
 - [ ] Find First and Last Position of Element in Sorted Array
 - [ ] Search in Rotated Sorted Array
 - [ ] Find Peak Element
