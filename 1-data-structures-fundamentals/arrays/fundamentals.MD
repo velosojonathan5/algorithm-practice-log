@@ -88,7 +88,7 @@ arr[2] = 10  # Updates the third element to 10
 - [x] Guess Number Higher or Lower
 - [x] Find First and Last Position of Element in Sorted Array
 - [x] Search in Rotated Sorted Array
-- [ ] Find Peak Element
+- [x] Find Peak Element
 - [ ] Find Minimum in Rotated Sorted Array
 - [ ] Median of Two Sorted Arrays
 - [ ] Find Minimum in Rotated Sorted Array II
