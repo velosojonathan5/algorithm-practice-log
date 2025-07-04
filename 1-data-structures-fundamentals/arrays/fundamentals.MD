@@ -79,18 +79,18 @@ arr[2] = 10  # Updates the third element to 10
 
 ## Practice Problems
 
-- [x] Basic Traversal
-- [x] Insertion
-- [x] Deletion
-- [x] Remove element (Two Pointers Problem)
-- [x] Binary Search
-- [x] First Bad Version
-- [x] Guess Number Higher or Lower
-- [x] Find First and Last Position of Element in Sorted Array
-- [x] Search in Rotated Sorted Array
-- [x] Find Peak Element
-- [ ] Find Minimum in Rotated Sorted Array
-- [ ] Median of Two Sorted Arrays
-- [ ] Find Minimum in Rotated Sorted Array II
-- [ ] Search in Rotated Sorted Array II
-- [ ] Find K-th Smallest Pair Distance
+1.  [x] Basic Traversal
+2.  [x] Insertion
+3.  [x] Deletion
+4.  [x] Remove element (Two Pointers Problem)
+5.  [x] Binary Search
+6.  [x] First Bad Version
+7.  [x] Guess Number Higher or Lower
+8.  [x] Find First and Last Position of Element in Sorted Array
+9.  [x] Search in Rotated Sorted Array
+10. [x] Find Peak Element
+11. [x] Find Minimum in Rotated Sorted Array
+12. [ ] Median of Two Sorted Arrays
+13. [ ] Find Minimum in Rotated Sorted Array II
+14. [ ] Search in Rotated Sorted Array II
+15. [ ] Find K-th Smallest Pair Distance
