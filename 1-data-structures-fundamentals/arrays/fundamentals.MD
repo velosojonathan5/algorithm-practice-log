@@ -94,3 +94,4 @@ arr[2] = 10  # Updates the third element to 10
 13. [ ] Find Minimum in Rotated Sorted Array II
 14. [ ] Search in Rotated Sorted Array II
 15. [ ] Find K-th Smallest Pair Distance
+16. [x] Longest Substring Without Repeating Characters
