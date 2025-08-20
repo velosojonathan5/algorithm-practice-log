@@ -25,6 +25,24 @@ class Tasks {
         console.log(` -> added the task ${task.name}`);
     }
 
+    append(task) {
+        if(this.head == null) {
+            this.head = task
+            return;
+        }
+
+        let current = this.head
+        while (current !== null) {
+            if(current.next === null) {
+                current.next = task;
+                console.log(` -> task ${task.name} appended`);
+                break;
+            }
+
+            current = current.next;
+        }
+    }
+
     // get the last task in the list
     pop() {
         if(this.head == null) {
@@ -53,12 +71,18 @@ class Tasks {
     }
 
     shift() {
+        if(this.head === null) {
+            console.log(` -> there aren't tasks`);
+            return;
+        }
+
         const temp = this.head;
         this.head = this.head.next;
+        console.log(` -> removed the task ${temp.name}`);
         return temp;
     }
 
-    remove() {
+    remove(name) {
         
     }
 
@@ -107,5 +131,15 @@ tasks.add(new Task('Tidy the closet'));
 tasks.showList();
 
 tasks.shift()
+
+tasks.showList();
+
+tasks.shift();
+tasks.shift();
+tasks.shift();
+
+tasks.append(new Task('Sing'));
+tasks.append(new Task('Swimming'));
+tasks.append(new Task('Watch TV'));
 
 tasks.showList();
