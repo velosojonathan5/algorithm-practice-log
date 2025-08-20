@@ -14,6 +14,7 @@ class Tasks {
     }
 
     add(task) {
+        
         if(this.head == null) {
             this.head = task
         } else {
@@ -21,15 +22,44 @@ class Tasks {
 
             this.head = task;
         }
+        console.log(` -> added the task ${task.name}`);
     }
 
     // get the last task in the list
-    getNext() {
+    pop() {
+        if(this.head == null) {
+            console.log(` -> there aren't tasks`);
+            return;
+        }
 
+        if(this.head.next == null) {
+            const temp = this.head;
+            this.head = null
+            console.log(` -> removed the task ${temp.name}`);
+            return temp;
+        }
+
+        let task = this.head;
+        let prev;
+        while (task != null) {
+            if(task.next == null) {
+                console.log(` -> removed the task ${task.name}`);
+                prev.next = null;
+                return task;
+            }
+            prev = task;
+            task = task.next;
+        }
+    }
+
+    shift() {
+        const temp = this.head;
+        this.head = this.head.next;
+        return temp;
     }
 
     remove() {
-
+        
     }
 
     search(name) {
@@ -50,8 +80,8 @@ class Tasks {
 }
 
 
-const tasks = new Tasks()
-tasks.showList()
+const tasks = new Tasks();
+tasks.showList();
 
 tasks.add(new Task('Study'));
 tasks.add(new Task('Play Videogame'));
@@ -61,4 +91,21 @@ tasks.showList()
 
 tasks.add(new Task('Clean the sink'));
 
-tasks.showList()
+tasks.showList();
+
+const lastTask = tasks.pop();
+tasks.pop();
+tasks.pop();
+tasks.pop();
+tasks.pop();
+tasks.showList();
+
+tasks.add(new Task('Study'));
+tasks.add(new Task('Play Videogame'));
+tasks.add(new Task('Tidy the closet'));
+
+tasks.showList();
+
+tasks.shift()
+
+tasks.showList();
