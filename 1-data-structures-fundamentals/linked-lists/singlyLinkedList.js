@@ -83,7 +83,29 @@ class Tasks {
     }
 
     remove(name) {
-        
+        if(this.head === null) {
+            console.log(` -> there aren't tasks`);
+            return;
+        }
+
+        if(this.head.name === name) {
+            this.head = this.head.next;
+            console.log(` -> removed the task ${name}`);
+            return;
+        }
+
+        let prev = this.head;
+        let current = this.head.next;
+
+        while(current != null) {
+            if(current.name === name){
+                prev.next = current.next;
+                console.log(` -> removed the task ${name}`);
+                return;
+            }
+            prev = current;
+            current = current.next;
+        }
     }
 
     search(name) {
@@ -141,5 +163,9 @@ tasks.shift();
 tasks.append(new Task('Sing'));
 tasks.append(new Task('Swimming'));
 tasks.append(new Task('Watch TV'));
+
+tasks.showList();
+
+tasks.remove('Sing');
 
 tasks.showList();
