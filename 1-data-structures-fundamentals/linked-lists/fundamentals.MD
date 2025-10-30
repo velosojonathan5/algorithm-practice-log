@@ -106,3 +106,7 @@ Singly Linked List with values `10 → 20 → 30`:
 - Linked lists are flexible data structures with efficient insertions/deletions.
 - They sacrifice random access and add memory overhead for pointers.
 - Different types (singly, doubly, circular) are suited for different scenarios.
+
+## Practice Problems
+
+1.  [x] Add Two Numbers
