@@ -109,4 +109,6 @@ Singly Linked List with values `10 → 20 → 30`:
 
 ## Practice Problems
 
-1.  [x] Add Two Numbers
+1. [x] Add Two Numbers
+2. [x] Remove Nth Node From End of List
+3. [] Merge Two Sorted Lists
