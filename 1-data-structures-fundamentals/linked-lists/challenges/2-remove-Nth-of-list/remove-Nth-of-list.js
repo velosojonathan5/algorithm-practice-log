@@ -1,28 +1,23 @@
+// the solution is using a two pointers solution
+
 function removeNthFromEnd(head, n) {
-    if (head.next == null) {
-        return null
+    const dummy = { val: 0, next: head };
+    let fast = dummy;
+    let slow = dummy;
+
+    // Move fast n+1 steps
+    for(let i = 0; i <= n; i++) {
+        fast = fast.next;
     }
 
-    let current = head;
-    let count = 0;
-    let prevNode = head;
-
-    while(current != null) {
-        count++;
-        if (count > n) {
-            if(current.next == null){
-                prevNode.next = prevNode.next.next
-            } else {
-                prevNode = prevNode.next;
-            }
-        }
-        current = current.next;
+    // Move both until fast reach the end
+    while(fast !== null) {
+        fast = fast.next;
+        slow = slow.next;
     }
 
-    // TODO: check if it's possible to eliminate it
-    if(count <= n){
-        head = head.next
-    }
+    // slow.next é o nó a remover
+    slow.next = slow.next.next;
 
-    return head;
+    return dummy.next;
 };
