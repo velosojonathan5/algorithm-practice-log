@@ -112,3 +112,5 @@ Singly Linked List with values `10 → 20 → 30`:
 1. [x] Add Two Numbers
 2. [x] Remove Nth Node From End of List
 3. [x] Merge Two Sorted Lists
+4. [ ] Merge k Sorted Lists
+5. [ ] Swap Nodes in Paris
