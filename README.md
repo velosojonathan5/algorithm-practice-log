@@ -7,7 +7,7 @@ I create this repository to track my review and practice of algorithms and data 
 1. Data Structures Fundamentals
 
 - [x] Arrays
-- [ ] Matrices
+- [x] Matrices
 - [x] Linked lists
 - [ ] Stacks
 - [ ] Queues

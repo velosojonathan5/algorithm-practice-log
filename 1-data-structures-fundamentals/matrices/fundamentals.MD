@@ -91,8 +91,11 @@ matrix[1][2] = 10  # Updates the element at row 1, column 2
 
 ## Practice Problems
 
-1. [ ] Matrix Traversal
-2. [ ] Spiral Matrix
+1. [x] Valid Sudoku
+2. [] Sudoku Solver
+3. [] Rotate Image
+
+<!-- 2. [ ] Spiral Matrix
 3. [ ] Rotate Matrix
 4. [ ] Set Matrix Zeroes
 5. [ ] Search a 2D Matrix
@@ -100,4 +103,4 @@ matrix[1][2] = 10  # Updates the element at row 1, column 2
 7. [ ] Word Search
 8. [ ] Number of Islands
 9. [ ] Surrounded Regions
-10. [ ] Maximal Rectangle
+10. [ ] Maximal Rectangle -->
