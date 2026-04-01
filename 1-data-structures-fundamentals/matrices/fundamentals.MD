@@ -94,7 +94,8 @@ matrix[1][2] = 10  # Updates the element at row 1, column 2
 1. [x] Valid Sudoku
 2. [] Sudoku Solver
 3. [x] Rotate Image
-4. [] Spiral Matrix
+4. [x] Spiral Matrix
+5. [] Spiral Matrix II
 
 <!-- 2. [ ] Spiral Matrix
 3. [ ] Rotate Matrix

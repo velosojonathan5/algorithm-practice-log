@@ -1,7 +1,6 @@
 function rotate(matrix) {
     let p = Math.floor(matrix.length / 2) - 1;;
     while(p >= 0) {
-        let temp = matrix[p][p]
         const width = (matrix.length - (p * 2));
         let rounds = width - 1;
         let j = p;
