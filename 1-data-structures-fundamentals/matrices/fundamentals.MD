@@ -96,7 +96,8 @@ matrix[1][2] = 10  # Updates the element at row 1, column 2
 3. [x] Rotate Image
 4. [x] Spiral Matrix
 5. [x] Spiral Matrix II
-6. [] Island Perimeter
+6. [x] Island Perimeter
+7. [] Reshape The Matrix 
 
 <!-- 2. [ ] Spiral Matrix
 3. [ ] Rotate Matrix
